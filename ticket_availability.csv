@@ -1,0 +1,11 @@
+city,event_date,artist,has_tickets,ticket_est_count
+New York,2026-05-01,,1,0
+Los Angeles,2026-05-02,,0,0
+Chicago,2026-05-03,,1,0
+New York,2026-05-04,,1,0
+Los Angeles,2026-05-05,,0,0
+Chicago,2026-05-06,,1,0
+Houston,2026-05-07,,0,0
+Phoenix,2026-05-08,,0,0
+Los Angeles,2026-05-09,,0,0
+New York,2026-05-10,,1,0

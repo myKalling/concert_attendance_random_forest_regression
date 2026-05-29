@@ -1,4 +1,11 @@
-city,event_date,temp_max,precipitation
-New York,2024-01-15,45,0.1
-Los Angeles,2024-01-15,72,0.0
-Chicago,2024-01-15,32,0.3
+city,event_date,weather_temp_max,weather_precipitation,weather_windspeed_max
+New York,2026-05-01,19.0,0.1,14.9
+Los Angeles,2026-05-02,25.0,0.0,12.5
+Chicago,2026-05-03,17.9,0.3,20.6
+New York,2026-05-04,24.5,0.0,21.2
+Los Angeles,2026-05-05,21.1,1.6,13.4
+Chicago,2026-05-06,14.1,0.0,20.7
+Houston,2026-05-07,27.9,1.6,15.4
+Phoenix,2026-05-08,37.5,0.0,14.1
+Los Angeles,2026-05-09,27.2,0.0,12.5
+New York,2026-05-10,24.5,4.2,15.4

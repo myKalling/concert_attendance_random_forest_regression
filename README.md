@@ -8,16 +8,31 @@ A comprehensive machine learning system for predicting concert attendance using 
 
 ```bash
 # Install dependencies
-pip install pandas numpy scikit-learn requests
+pip install -r requirements.txt
 
-# Set Spotify credentials (optional)
-export SPOTIPY_CLIENT_ID="your_id"
-export SPOTIPY_CLIENT_SECRET="your_secret"
+# Copy .env example and fill with your own API credentials
+copy .env.example .env
+```
 
-# Run full pipeline
+Then edit `.env` with your private keys:
+
+```ini
+SPOTIPY_CLIENT_ID=
+SPOTIPY_CLIENT_SECRET=
+TICKETMASTER_API_KEY=
+EVENTBRITE_TOKEN=
+CENSUS_API_KEY=
+```
+
+Run the full pipeline:
+
+```bash
 python pipeline_script.py --input concerts_raw.csv --output-dir ./results
+```
 
-# Or quick mode (without external data)
+Or quick mode without external API fetches:
+
+```bash
 python pipeline_script.py --quick
 ```
 
@@ -50,8 +65,8 @@ python pipeline_script.py --quick
 1. **Validation**: Schema check, duplicate detection, missing value analysis
 2. **Cleaning**: Date parsing, city normalization, imputation, deduplication
 3. **Feature Engineering**: Temporal features (day_of_week, month), price-based features, target variable
-4. **External Data**: Fetch Spotify, weather, demographics
-5. **Merging**: Intelligent join on artist_name, city, date
+4. **External Data**: Fetch Spotify, weather, Ticketmaster, Eventbrite, Census demographics
+5. **Merging**: Intelligent join on genre, city, date
 6. **Modeling**: Train/test split, preprocessing, RandomForest/GradientBoosting, cross-validation
 
 ### Machine Learning

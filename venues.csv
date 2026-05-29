@@ -1,4 +1,6 @@
-city,parking_score,transit_score
-New York,3,98
-Los Angeles,65,50
-Chicago,45,80
+city,venue_count,venue_outdoor_pct
+Chicago,50,0.16
+Houston,50,0.16
+Los Angeles,50,0.16
+New York,50,0.16
+Phoenix,50,0.16

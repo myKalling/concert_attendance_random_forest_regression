@@ -1,0 +1,6 @@
+city,latitude,longitude,country,country_code,timezone,elevation
+Chicago,41.85003,-87.65005,United States,US,America/Chicago,179.0
+Houston,29.76328,-95.36327,United States,US,America/Chicago,12.0
+Los Angeles,34.05223,-118.24368,United States,US,America/Los_Angeles,89.0
+New York,40.71427,-74.00597,United States,US,America/New_York,10.0
+Phoenix,33.44838,-112.07404,United States,US,America/Phoenix,331.0
