@@ -1,0 +1,11 @@
+event_id,event_date,city,venue_capacity,artist_popularity,ticket_price,competing_events,genre,attendance
+1,2026-05-01,New York City,20000,88,85.50,1,Pop,18500
+2,2026-05-02,LA,5000,74,,0,Rock,4200
+3,2026-05-03,Chicago,1500,92,120.00,2,Hip-Hop,1450
+4,2026-05-04,New York,20000,,65.00,0,Rock,12000
+5,2026-05-05,Los Angeles,500,61,30.00,0,,310
+6,2026-05-06,chicago,5000,82,95.00,1,Electronic,4600
+7,2026-05-07,Houston,20000,45,40.00,0,Country,8900
+8,2026-05-08,Phoenix,1500,79,75.00,1,Pop,95000
+9,2026-05-09,Los Angeles,5000,85,110.00,3,Hip-Hop,4800
+10,2026-05-10,New York,500,,50.00,0,Electronic,410

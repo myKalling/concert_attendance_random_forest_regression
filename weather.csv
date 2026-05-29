@@ -1,0 +1,4 @@
+city,event_date,temp_max,precipitation
+New York,2024-01-15,45,0.1
+Los Angeles,2024-01-15,72,0.0
+Chicago,2024-01-15,32,0.3

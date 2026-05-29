@@ -1,0 +1,15 @@
+Concert Attendance Prediction Model - Evaluation Summary
+============================================================
+
+Model Configuration:
+  Estimator: RandomForestRegressor
+  Train samples: 8
+  Test samples: 2
+  Total features: 13
+
+Evaluation Metrics:
+  Test R²: 0.8692017247087307
+  Test RMSE: 0.021699626514302517
+  Test MAE: 0.019470833327647263
+  CV Mean R²: nan
+  CV Std R²: nan
